@@ -25,13 +25,13 @@ async def cbstart(_, query: CallbackQuery):
                         " ꜱᴇᴛᴜᴘ⚡", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://github.com/Itsunknown-12/Zaid-Vc-Player")
+                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://t.me/Djcat_Bot/3")
                 ],[
                     InlineKeyboardButton(
-                        "⚡ ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SUPERIOR_SUPPORT"
+                        "⚡ ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/global_chatting_friends"
                     ),
                     InlineKeyboardButton(
-                        "ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/SUPERIOR_BOTS")
+                        "ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/Djcat_bot")
                 ],[
                     InlineKeyboardButton(
                         " ℹ️ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
@@ -46,7 +46,7 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhelp"))
 async def cbhelp(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu Powered by @superior_bots !</b>
+        f"""<b>💡 Hello there, welcome to the help menu Powered by DjCat !</b>
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
