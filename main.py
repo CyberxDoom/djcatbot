@@ -17,7 +17,7 @@ bot = Bot(
     plugins=dict(root="zaidmusic"),
 )
 
-print("[INFO]: ZAIDMUSIC STARTED!")
+print("[INFO]: DJCAT STARTED!")
 
 bot.start()
 run()
